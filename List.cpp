@@ -1,12 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /* 
  * File:   List.cpp
- * Author: Jeremie
+ * Author: Jeremie Chatillon et James Smith
  * 
  * Created on 5. avril 2018, 13:02
  */
@@ -21,7 +15,7 @@ List<T>::List(){
 }
 */
 
-template<class T>
+/*template<class T>
 List<T>::List(const List& orig) {
     if(head == nullptr){
         head = nullptr;
@@ -32,7 +26,7 @@ List<T>::List(const List& orig) {
             append(orig.at(i));
         }
     }
-}
+}*/
 /*
 template<class T>
 size_t List<T>::size() const{
